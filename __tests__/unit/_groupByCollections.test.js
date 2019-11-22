@@ -1,4 +1,4 @@
-const groupByCollections = require("../src/groupByCollections");
+const groupByCollections = require("../../src/utils/groupByCollections");
 
 describe("Testando agrupação por campo em coleções", () => {
   it("Dado um conjunto de dados devemos agrupar por determinada propiedade que for passada para função", () => {
